@@ -133,11 +133,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX - instructions specify colorOne set to 'blue' and colorTwo set to 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  //FIX - Instructions indicate that both colorOne and colorTwo to 'purple'. Add colorTwo = 'purple';
   colorOne = 'purple';
 }
 */
@@ -148,8 +150,10 @@ if (mix === true) {
 
 /*
 let temp = 40;
+//FIX -- instructions indicate that time should be a variable not a constant. Change to let time = 4
 const time = 4;
 
+//FIX instructions specify an AND conditional. Change to: if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -161,8 +165,11 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+//FIX instructions specify two variables. Change delcaration of constant to: let minAge = 21.
 const minAge = 21;
 
+// FIX really nit-picky here but instructions indicate code checks that age >= minAge. Change to: if(age >= minAge). The console logs should be changed also to reflect the output instructed. 
+//FIX CONT. Since age >= minAge the console.log for this code block should be 'enter' and the else console.log should be 'no entry'. 
 if(minAge <= age) {
   console.log('no entry');
 } else {
