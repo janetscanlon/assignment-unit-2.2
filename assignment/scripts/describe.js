@@ -70,10 +70,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we create 3 variables. isStudent set as true, age is 34, and zip is 55407. An else if to determine the following conditions: 
+// if isStudent is true AND zip is greater than 8000 then the code will console.log 'you're a studnet on the West Coast!'
+// if either of those statements are not true the code will check for if isStudent is false OR age is less than 30. if either of those statements are true then console.log 'What are your hobbies?'
+// if neither of those statements are true then the code will check if isStudent is ture and console log 'Welcome to Prime!'
+// and all other values will output 'How about the weather?' 
+// since is true but zip < 80000, the first code block does not run. Neither of the conditionals for the second code block are true (isStudent === true and age > 30), so the second codeblock doesn't run. 
+// the third conditional will run because isStudent === true. The code will console.log 'Welcome to Prime!' 
 
 //CODE
 /*
