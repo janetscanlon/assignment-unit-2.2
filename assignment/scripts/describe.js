@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a veriable called name and give it the value Dane
+// then create a conditional for the variable 'name' where if 'name' is Mary then console log Hi, Mary! Will be the output. 
+// If name is not Mary, then console log How do you do? name is not Mary so 
+// we console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable named secret. A second variable named code is given the value of 123. We create a conditional for the value of secret: 
+// if the value of code is 123 then the variable secret is given the value 'super' and variable code is multipled by 2. 
+// If the value of code is greater than 250 then secret is given the value of 'duper'. code is equal to 123 so we 
+// console.log 'super'
 
 //CODE
 /*
